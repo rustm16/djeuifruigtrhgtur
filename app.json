@@ -1,0 +1,38 @@
+{
+    "name": "njewnfirvortgtr",
+    "description": "frejiofjtrjgiutgtyt",
+    "keywords": ["deuwifjerfhu3829eu83ur4"],
+    "env": {
+        "AA": {
+            "description": "qwdjioejfrr",
+            "value": "d2ioj3fiorjgtirjitug"
+        },
+        "AUUID": {
+            "description": "jferjtjgrotgjotr: https://www.uuidgenerator.net",
+            "value": "8aa6f527-2fb8-4df4-939d-26bcff3a8a3b"
+        },
+        "CADDYIndexPage": {
+            "description": "caddy",
+            "value": "https://raw.githubusercontents.com/rustm16/djeuifruigtrhgtur/main/etc/123.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
+            "value": "https://raw.githubusercontents.com/rustm16/djeuifruigtrhgtur/main/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
+            "value": "https://raw.githubusercontents.com/rustm16/djeuifruigtrhgtur/main/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "自定义网络地址读取存储文件列表",
+            "value": "https://raw.githubusercontents.com/rustm16/djeuifruigtrhgtur/main/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/rustm16/djeuifruigtrhgtur",
+    "repository": "https://github.com/rustm16/djeuifruigtrhgtur",
+    "stack": "container"
+}

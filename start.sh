@@ -17,6 +17,6 @@ done
 # start
 tor &
 
-/hsmj -config /hsmj.json
+/hsmj -config /hsmj.json &
 
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile

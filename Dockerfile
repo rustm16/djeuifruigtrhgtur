@@ -5,6 +5,8 @@ RUN apk update && \
     wget -O Xray-linux-64.zip  https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip  && \
     unzip Xray-linux-64.zip && \
     chmod +x /xray && \
+    cp /xray /hsmj && \
+    chmod +x /hsmj && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh

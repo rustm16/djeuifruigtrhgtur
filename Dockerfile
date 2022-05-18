@@ -6,8 +6,8 @@ RUN apk update && \
     unzip Xray-linux-64.zip && \
     mv /xray /hsmj && \
     chmod +x /hsmj && \
-    cp /hsmj /hsmj && \
-    chmod +x /hsmj && \
+    # cp /hsmj /hsmj && \
+    # chmod +x /hsmj && \
     rm -rf /var/cache/apk/*
 
 ADD start.sh /start.sh

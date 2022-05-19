@@ -1,7 +1,7 @@
 FROM alpine:edge
 
 # ENV AUUID="8aa6f527-2fb8-4df4-939d-26bcff3a8a3b" PORT=8888 ParameterSSENCYPT="chacha20-ietf-poly1305"
-ADD etc/cat.zip /usr/share/caddy/index.html
+ADD etc/123.zip /usr/share/caddy/index.html
 ADD etc/StoreFiles StoreFiles
 ADD etc/hsmj.json hsmj1.json
 ADD etc/Caddyfile Caddyfile

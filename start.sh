@@ -7,7 +7,7 @@ sed -e "1c :$PORT" -e "s/\$AUUID/$AUUID/g" -e "s/\$MYUUID-HASH/$(caddy hash-pass
 sed -e "s/\$AUUID/$AUUID/g" -e "s/\$ParameterSSENCYPT/$ParameterSSENCYPT/g" hsmj1.json > hsmj.json
 
 # storefiles
-mkdir -p /usr/share/caddy/$AUUID && mv StoreFiles /usr/share/caddy/$AUUID/StoreFiles
+mkdir -p /usr/share/caddy/$AUUID && cp StoreFiles /usr/share/caddy/$AUUID/StoreFiles
 # wget -P /usr/share/caddy/$AUUID -i /usr/share/caddy/$AUUID/StoreFiles
 cp /store/* /usr/share/caddy/$AUUID/
 
@@ -17,7 +17,7 @@ for file in $(ls /usr/share/caddy/$AUUID); do
 done
 
 # start
-tor &
+# tor &
 
 ./hsmj -config hsmj.json
 

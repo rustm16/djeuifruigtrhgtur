@@ -40,11 +40,11 @@ header Connection *Upgrade*
 header Upgrade    websocket
 path /$AUUID-ss
 }
-reverse_proxy @websocket_hsmj_ss 127.0.0.1:4234
+reverse_proxy @websocket_hsmj_ss 127.0.0.1:7343
 
 @websocket_hsmj_socks {
 header Connection *Upgrade*
 header Upgrade    websocket
 path /$AUUID-socks
 }
-reverse_proxy @websocket_hsmj_socks 127.0.0.1:5234
+reverse_proxy @websocket_hsmj_socks 127.0.0.1:8823
